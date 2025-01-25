@@ -54,6 +54,7 @@
   .image-cover {
     background-color: transparent;
     background-size: cover;
+    background-position: 50% 50%;
     background-image: var(--loupe-image);
   }
 </style>

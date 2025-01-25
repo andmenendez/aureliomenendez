@@ -1,73 +1,72 @@
-import asturias1 from "$lib/assets/albums/Asturias/1.jpg";
-import asturias2 from "$lib/assets/albums/Asturias/2.jpg";
-import asturias3 from "$lib/assets/albums/Asturias/3.jpg";
-import asturias4 from "$lib/assets/albums/Asturias/4.jpg";
-import asturias5 from "$lib/assets/albums/Asturias/5.jpg";
-import Asturias6 from "$lib/assets/albums/Asturias/6.jpg";
-import canal1 from "$lib/assets/albums/C&O Canal/1.jpg";
-import canal2 from "$lib/assets/albums/C&O Canal/2.jpg";
-import canal3 from "$lib/assets/albums/C&O Canal/3.jpg";
-import canal4 from "$lib/assets/albums/C&O Canal/4.jpg";
-import canal5 from "$lib/assets/albums/C&O Canal/5.jpg";
-import canal6 from "$lib/assets/albums/C&O Canal/6.jpg";
-import canal7 from "$lib/assets/albums/C&O Canal/7.jpg";
-import canal8 from "$lib/assets/albums/C&O Canal/8.jpg";
-import canal9 from "$lib/assets/albums/C&O Canal/9.jpg";
-import canal10 from "$lib/assets/albums/C&O Canal/10.jpg";
-import canal11 from "$lib/assets/albums/C&O Canal/11.jpg";
-import canal12 from "$lib/assets/albums/C&O Canal/12.jpg";
-import canal13 from "$lib/assets/albums/C&O Canal/13.jpg";
-import canal14 from "$lib/assets/albums/C&O Canal/14.jpg";
-import canal15 from "$lib/assets/albums/C&O Canal/15.jpg";
-import canal16 from "$lib/assets/albums/C&O Canal/16.jpg";
-import canal17 from "$lib/assets/albums/C&O Canal/17.jpg";
-import canal18 from "$lib/assets/albums/C&O Canal/18.jpg";
-import canal19 from "$lib/assets/albums/C&O Canal/19.jpg";
-import canal20 from "$lib/assets/albums/C&O Canal/20.jpg";
-import canal21 from "$lib/assets/albums/C&O Canal/21.jpg";
-import canal22 from "$lib/assets/albums/C&O Canal/22.jpg";
-import canal23 from "$lib/assets/albums/C&O Canal/23.jpg";
-import canal24 from "$lib/assets/albums/C&O Canal/24.jpg";
-import canal25 from "$lib/assets/albums/C&O Canal/25.jpg";
-import canal26 from "$lib/assets/albums/C&O Canal/26.jpg";
-import canal27 from "$lib/assets/albums/C&O Canal/27.jpg";
-import canal28 from "$lib/assets/albums/C&O Canal/28.jpg";
-import canal29 from "$lib/assets/albums/C&O Canal/29.jpg";
-import canal30 from "$lib/assets/albums/C&O Canal/30.jpg";
-import canal31 from "$lib/assets/albums/C&O Canal/31.jpg";
-import canal32 from "$lib/assets/albums/C&O Canal/32.jpg";
-import canal33 from "$lib/assets/albums/C&O Canal/33.jpg";
-import canal34 from "$lib/assets/albums/C&O Canal/34.jpg";
-import canal35 from "$lib/assets/albums/C&O Canal/35.jpg";
-import canal36 from "$lib/assets/albums/C&O Canal/36.jpg";
-import jardin1 from "$lib/assets/albums/Jardin/1.jpg";
-import jardin2 from "$lib/assets/albums/Jardin/2.jpg";
-import jardin3 from "$lib/assets/albums/Jardin/3.jpg";
-import jardin4 from "$lib/assets/albums/Jardin/4.jpg";
-import jardin5 from "$lib/assets/albums/Jardin/5.jpg";
-import jardin6 from "$lib/assets/albums/Jardin/6.jpg";
-import jardin7 from "$lib/assets/albums/Jardin/7.jpg";
-import jardin8 from "$lib/assets/albums/Jardin/8.jpg";
-import newYork1 from "$lib/assets/albums/NYC/1.jpg";
-import newYork2 from "$lib/assets/albums/NYC/2.jpg";
-import newYork3 from "$lib/assets/albums/NYC/3.jpg";
-import newYork4 from "$lib/assets/albums/NYC/4.jpg";
-import newYork5 from "$lib/assets/albums/NYC/5.jpg";
-import newYork6 from "$lib/assets/albums/NYC/6.jpg";
-import yosemite1 from "$lib/assets/albums/Yosemite/1.jpg";
-import yosemite2 from "$lib/assets/albums/Yosemite/2.jpg";
-import yosemite3 from "$lib/assets/albums/Yosemite/3.jpg";
-import yosemite4 from "$lib/assets/albums/Yosemite/4.jpg";
-import yosemite5 from "$lib/assets/albums/Yosemite/5.jpg";
-import yosemite6 from "$lib/assets/albums/Yosemite/6.jpg";
-import yosemite7 from "$lib/assets/albums/Yosemite/7.jpg";
-import yosemite8 from "$lib/assets/albums/Yosemite/8.jpg";
-import yosemite9 from "$lib/assets/albums/Yosemite/9.jpg";
-import yosemite10 from "$lib/assets/albums/Yosemite/10.jpg";
-import yosemite11 from "$lib/assets/albums/Yosemite/11.jpg";
-import yosemite12 from "$lib/assets/albums/Yosemite/12.jpg";
-import yosemite13 from "$lib/assets/albums/Yosemite/13.jpg";
-import yosemite14 from "$lib/assets/albums/Yosemite/14.jpg";
+import asturias1 from "$lib/assets/albums/Asturias/1.jpeg";
+import asturias2 from "$lib/assets/albums/Asturias/2.jpeg";
+import asturias3 from "$lib/assets/albums/Asturias/3.jpeg";
+import asturias4 from "$lib/assets/albums/Asturias/4.jpeg";
+import asturias5 from "$lib/assets/albums/Asturias/5.jpeg";
+import Asturias6 from "$lib/assets/albums/Asturias/6.jpeg";
+import canal1 from "$lib/assets/albums/canal/1.jpeg";
+import canal2 from "$lib/assets/albums/canal/2.jpeg";
+import canal3 from "$lib/assets/albums/canal/3.jpeg";
+import canal4 from "$lib/assets/albums/canal/4.jpeg";
+import canal5 from "$lib/assets/albums/canal/5.jpeg";
+import canal6 from "$lib/assets/albums/canal/6.jpeg";
+import canal7 from "$lib/assets/albums/canal/7.jpeg";
+import canal8 from "$lib/assets/albums/canal/8.jpeg";
+import canal9 from "$lib/assets/albums/canal/9.jpeg";
+import canal10 from "$lib/assets/albums/canal/10.jpeg";
+import canal11 from "$lib/assets/albums/canal/11.jpeg";
+import canal12 from "$lib/assets/albums/canal/12.jpeg";
+import canal13 from "$lib/assets/albums/canal/13.jpeg";
+import canal14 from "$lib/assets/albums/canal/14.jpeg";
+import canal15 from "$lib/assets/albums/canal/15.jpeg";
+import canal16 from "$lib/assets/albums/canal/16.jpeg";
+import canal17 from "$lib/assets/albums/canal/17.jpeg";
+import canal18 from "$lib/assets/albums/canal/18.jpeg";
+import canal19 from "$lib/assets/albums/canal/19.jpeg";
+import canal20 from "$lib/assets/albums/canal/20.jpeg";
+import canal21 from "$lib/assets/albums/canal/21.jpeg";
+import canal22 from "$lib/assets/albums/canal/22.jpeg";
+import canal23 from "$lib/assets/albums/canal/23.jpeg";
+import canal24 from "$lib/assets/albums/canal/24.jpeg";
+import canal25 from "$lib/assets/albums/canal/25.jpeg";
+import canal26 from "$lib/assets/albums/canal/26.jpeg";
+import canal27 from "$lib/assets/albums/canal/27.jpeg";
+import canal28 from "$lib/assets/albums/canal/28.jpeg";
+import canal29 from "$lib/assets/albums/canal/29.jpeg";
+import canal30 from "$lib/assets/albums/canal/30.jpeg";
+import canal31 from "$lib/assets/albums/canal/31.jpeg";
+import canal32 from "$lib/assets/albums/canal/32.jpeg";
+import canal33 from "$lib/assets/albums/canal/33.jpeg";
+import canal34 from "$lib/assets/albums/canal/34.jpeg";
+import canal35 from "$lib/assets/albums/canal/35.jpeg";
+import jardin1 from "$lib/assets/albums/Jardin/1.jpeg";
+import jardin2 from "$lib/assets/albums/Jardin/2.jpeg";
+import jardin3 from "$lib/assets/albums/Jardin/3.jpeg";
+import jardin4 from "$lib/assets/albums/Jardin/4.jpeg";
+import jardin5 from "$lib/assets/albums/Jardin/5.jpeg";
+import jardin6 from "$lib/assets/albums/Jardin/6.jpeg";
+import jardin7 from "$lib/assets/albums/Jardin/7.jpeg";
+import jardin8 from "$lib/assets/albums/Jardin/8.jpeg";
+import newYork1 from "$lib/assets/albums/NYC/1.jpeg";
+import newYork2 from "$lib/assets/albums/NYC/2.jpeg";
+import newYork3 from "$lib/assets/albums/NYC/3.jpeg";
+import newYork4 from "$lib/assets/albums/NYC/4.jpeg";
+import newYork5 from "$lib/assets/albums/NYC/5.jpeg";
+import newYork6 from "$lib/assets/albums/NYC/6.jpeg";
+import yosemite1 from "$lib/assets/albums/Yosemite/1.jpeg";
+import yosemite2 from "$lib/assets/albums/Yosemite/2.jpeg";
+import yosemite3 from "$lib/assets/albums/Yosemite/3.jpeg";
+import yosemite4 from "$lib/assets/albums/Yosemite/4.jpeg";
+import yosemite5 from "$lib/assets/albums/Yosemite/5.jpeg";
+import yosemite6 from "$lib/assets/albums/Yosemite/6.jpeg";
+import yosemite7 from "$lib/assets/albums/Yosemite/7.jpeg";
+import yosemite8 from "$lib/assets/albums/Yosemite/8.jpeg";
+import yosemite9 from "$lib/assets/albums/Yosemite/9.jpeg";
+import yosemite10 from "$lib/assets/albums/Yosemite/10.jpeg";
+import yosemite11 from "$lib/assets/albums/Yosemite/11.jpeg";
+import yosemite12 from "$lib/assets/albums/Yosemite/12.jpeg";
+import yosemite13 from "$lib/assets/albums/Yosemite/13.jpeg";
+import yosemite14 from "$lib/assets/albums/Yosemite/14.jpeg";
 
 const pics = [
   {id: "asturias1", src: asturias1, name: "asturias1", albums:["asturias"]},
@@ -111,7 +110,6 @@ const pics = [
   {id: "canal33", src: canal33, name: "canal33", albums:["canal"]},
   {id: "canal34", src: canal34, name: "canal34", albums:["canal"]},
   {id: "canal35", src: canal35, name: "canal35", albums:["canal"]},
-  {id: "canal36", src: canal36, name: "canal36", albums:["canal"]},
   {id: "jardin1", src: jardin1, name: "jardin1", albums:["jardin"]},
   {id: "jardin2", src: jardin2, name: "jardin2", albums:["jardin"]},
   {id: "jardin3", src: jardin3, name: "jardin3", albums:["jardin"]},
@@ -141,5 +139,6 @@ const pics = [
   {id: "yosemite13", src: yosemite13, name: "yosemite13", albums:["yosemite"]},
   {id: "yosemite14", src: yosemite14, name: "yosemite14", albums:["yosemite"]},
 ];
+
 
 export default pics;

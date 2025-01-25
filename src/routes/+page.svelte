@@ -8,16 +8,16 @@
   });
 
   const paths = [
-    { name: "All", path: "/all" },
-    {name: "Asturias", path: "/asturias"},
-    {name: "Canal", path: "/canal"},
-    {name: "Jardin", path: "/jardin"},
-    {name: "New York", path: "/newYork"},
-    {name: "Yosemite", path: "/yosemite"},
+    {name: "All", path: "/all" },
+    {name: "Asturias", path: "/album/asturias"},
+    {name: "Canal", path: "/album/canal"},
+    {name: "Jardin", path: "/album/jardin"},
+    {name: "New York", path: "/album/newYork"},
+    {name: "Yosemite", path: "/album/yosemite"},
   ];
 </script>
 
-<div class="flex flex-col py-10 px-40 gap-2 w-full">
+<div class="flex flex-col py-10 px-4 md:!px-40 gap-2 w-full">
   {#if render}
     <ul
       class="w-full ring-1 ring-white/5 rounded-lg p-2"
@@ -26,7 +26,7 @@
         delay: 0,
       }}
       out:slide={{
-        duration: 500,
+        duration: 200,
         delay: 0,
       }}
     >
