@@ -17,7 +17,7 @@
   
 </script>
 
-<div class="flex flex-row w-full gap-4 px-4 md:!px-40-40">
+<div class="flex flex-row w-full gap-4 px-4 md:!px-40">
   {#if render}
     <div
       class="flex gap-2 items-end w-full ring-1 ring-white/5 rounded-lg p-2"
