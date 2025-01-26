@@ -1,4 +1,4 @@
-import asturias1 from "$lib/assets/albums/asturias/a.jpeg";
+import asturias1 from "../lib/assets/albums/asturias/a.jpeg"
 import asturias2 from "$lib/assets/albums/asturias/b.jpeg";
 import asturias3 from "$lib/assets/albums/asturias/c.jpeg";
 import asturias4 from "$lib/assets/albums/asturias/d.jpeg";
