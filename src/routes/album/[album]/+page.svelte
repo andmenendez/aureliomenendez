@@ -1,4 +1,3 @@
-
 <script>
   export let data;
 
@@ -8,16 +7,18 @@
   import pics from "$lib/image-bank";
   import { shuffleArray } from "$lib/utlils";
   import { goto } from "$app/navigation";
-  
   const { content } = data;
-  const full_pics = shuffleArray(pics).filter(pic => pic.albums.includes(content));
+  const full_pics = shuffleArray(pics).filter((pic) =>
+    pic.albums
+      .map((/** @type {string} */ a) => a.toLowerCase())
+      .includes(content.toLowerCase())
+  );
   const colCount = Math.min(5, Math.floor(Math.sqrt(full_pics.length)));
   var render = false;
 
   onMount(() => {
     render = true;
   });
-
 </script>
 
 <div class="flex flex-row w-full gap-4 px-4 md:!px-40">
@@ -37,7 +38,6 @@
         on:click={() => {
           render = false;
           setTimeout(() => goto("/"), 500);
-
         }}
       >
         <h3>Fotografía</h3></button
@@ -47,7 +47,6 @@
         on:click={() => {
           render = false;
           setTimeout(() => goto(`/${content}`), 500);
-
         }}
       >
         <h3 class="capitalize">{content}</h3></button
@@ -56,7 +55,7 @@
   {/if}
 </div>
 <div class="hidden md:flex flex-row w-full gap-4 pt-10 px-4 md:!px-40">
-  {#each [50, 200, 0, 100, 150].slice(0,colCount) as h, i}
+  {#each [50, 200, 0, 100, 150].slice(0, colCount) as h, i}
     {#if render}
       <div
         class="flex flex-col gap-4 w-full"
@@ -75,7 +74,7 @@
   {/each}
 </div>
 <div class="flex md:hidden flex-row w-full gap-4 pt-10 px-4 md:!px-40">
-  {#each [50, 200, 0].slice(0,colCount) as h, i}
+  {#each [50, 200, 0].slice(0, colCount) as h, i}
     {#if render}
       <div
         class="flex flex-col gap-4 w-full"

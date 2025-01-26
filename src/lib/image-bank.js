@@ -1,9 +1,9 @@
-import asturias1 from "$lib/assets/albums/Asturias/1.jpeg";
-import asturias2 from "$lib/assets/albums/Asturias/2.jpeg";
-import asturias3 from "$lib/assets/albums/Asturias/3.jpeg";
-import asturias4 from "$lib/assets/albums/Asturias/4.jpeg";
-import asturias5 from "$lib/assets/albums/Asturias/5.jpeg";
-import Asturias6 from "$lib/assets/albums/Asturias/6.jpeg";
+import asturias1 from "$lib/assets/albums/asturias/1.jpeg";
+import asturias2 from "$lib/assets/albums/asturias/2.jpeg";
+import asturias3 from "$lib/assets/albums/asturias/3.jpeg";
+import asturias4 from "$lib/assets/albums/asturias/4.jpeg";
+import asturias5 from "$lib/assets/albums/asturias/5.jpeg";
+import asturias6 from "$lib/assets/albums/asturias/6.jpeg";
 import canal1 from "$lib/assets/albums/canal/1.jpeg";
 import canal2 from "$lib/assets/albums/canal/2.jpeg";
 import canal3 from "$lib/assets/albums/canal/3.jpeg";
@@ -39,34 +39,34 @@ import canal32 from "$lib/assets/albums/canal/32.jpeg";
 import canal33 from "$lib/assets/albums/canal/33.jpeg";
 import canal34 from "$lib/assets/albums/canal/34.jpeg";
 import canal35 from "$lib/assets/albums/canal/35.jpeg";
-import jardin1 from "$lib/assets/albums/Jardin/1.jpeg";
-import jardin2 from "$lib/assets/albums/Jardin/2.jpeg";
-import jardin3 from "$lib/assets/albums/Jardin/3.jpeg";
-import jardin4 from "$lib/assets/albums/Jardin/4.jpeg";
-import jardin5 from "$lib/assets/albums/Jardin/5.jpeg";
-import jardin6 from "$lib/assets/albums/Jardin/6.jpeg";
-import jardin7 from "$lib/assets/albums/Jardin/7.jpeg";
-import jardin8 from "$lib/assets/albums/Jardin/8.jpeg";
-import newYork1 from "$lib/assets/albums/NYC/1.jpeg";
-import newYork2 from "$lib/assets/albums/NYC/2.jpeg";
-import newYork3 from "$lib/assets/albums/NYC/3.jpeg";
-import newYork4 from "$lib/assets/albums/NYC/4.jpeg";
-import newYork5 from "$lib/assets/albums/NYC/5.jpeg";
-import newYork6 from "$lib/assets/albums/NYC/6.jpeg";
-import yosemite1 from "$lib/assets/albums/Yosemite/1.jpeg";
-import yosemite2 from "$lib/assets/albums/Yosemite/2.jpeg";
-import yosemite3 from "$lib/assets/albums/Yosemite/3.jpeg";
-import yosemite4 from "$lib/assets/albums/Yosemite/4.jpeg";
-import yosemite5 from "$lib/assets/albums/Yosemite/5.jpeg";
-import yosemite6 from "$lib/assets/albums/Yosemite/6.jpeg";
-import yosemite7 from "$lib/assets/albums/Yosemite/7.jpeg";
-import yosemite8 from "$lib/assets/albums/Yosemite/8.jpeg";
-import yosemite9 from "$lib/assets/albums/Yosemite/9.jpeg";
-import yosemite10 from "$lib/assets/albums/Yosemite/10.jpeg";
-import yosemite11 from "$lib/assets/albums/Yosemite/11.jpeg";
-import yosemite12 from "$lib/assets/albums/Yosemite/12.jpeg";
-import yosemite13 from "$lib/assets/albums/Yosemite/13.jpeg";
-import yosemite14 from "$lib/assets/albums/Yosemite/14.jpeg";
+import jardin1 from "$lib/assets/albums/jardin/1.jpeg";
+import jardin2 from "$lib/assets/albums/jardin/2.jpeg";
+import jardin3 from "$lib/assets/albums/jardin/3.jpeg";
+import jardin4 from "$lib/assets/albums/jardin/4.jpeg";
+import jardin5 from "$lib/assets/albums/jardin/5.jpeg";
+import jardin6 from "$lib/assets/albums/jardin/6.jpeg";
+import jardin7 from "$lib/assets/albums/jardin/7.jpeg";
+import jardin8 from "$lib/assets/albums/jardin/8.jpeg";
+import newyork1 from "$lib/assets/albums/nyc/1.jpeg";
+import newyork2 from "$lib/assets/albums/nyc/2.jpeg";
+import newyork3 from "$lib/assets/albums/nyc/3.jpeg";
+import newyork4 from "$lib/assets/albums/nyc/4.jpeg";
+import newyork5 from "$lib/assets/albums/nyc/5.jpeg";
+import newyork6 from "$lib/assets/albums/nyc/6.jpeg";
+import yosemite1 from "$lib/assets/albums/yosemite/1.jpeg";
+import yosemite2 from "$lib/assets/albums/yosemite/2.jpeg";
+import yosemite3 from "$lib/assets/albums/yosemite/3.jpeg";
+import yosemite4 from "$lib/assets/albums/yosemite/4.jpeg";
+import yosemite5 from "$lib/assets/albums/yosemite/5.jpeg";
+import yosemite6 from "$lib/assets/albums/yosemite/6.jpeg";
+import yosemite7 from "$lib/assets/albums/yosemite/7.jpeg";
+import yosemite8 from "$lib/assets/albums/yosemite/8.jpeg";
+import yosemite9 from "$lib/assets/albums/yosemite/9.jpeg";
+import yosemite10 from "$lib/assets/albums/yosemite/10.jpeg";
+import yosemite11 from "$lib/assets/albums/yosemite/11.jpeg";
+import yosemite12 from "$lib/assets/albums/yosemite/12.jpeg";
+import yosemite13 from "$lib/assets/albums/yosemite/13.jpeg";
+import yosemite14 from "$lib/assets/albums/yosemite/14.jpeg";
 
 const pics = [
   {id: "asturias1", src: asturias1, name: "asturias1", albums:["asturias"]},
@@ -74,7 +74,7 @@ const pics = [
   {id: "asturias3", src: asturias3, name: "asturias3", albums:["asturias"]},
   {id: "asturias4", src: asturias4, name: "asturias4", albums:["asturias"]},
   {id: "asturias5", src: asturias5, name: "asturias5", albums:["asturias"]},
-  {id: "Asturias6", src: Asturias6, name: "Asturias6", albums:["Asturias"]},
+  {id: "Asturias6", src: asturias6, name: "asturias6", albums:["asturias"]},
   {id: "canal1", src: canal1, name: "canal1", albums:["canal"]},
   {id: "canal2", src: canal2, name: "canal2", albums:["canal"]},
   {id: "canal3", src: canal3, name: "canal3", albums:["canal"]},
@@ -118,12 +118,12 @@ const pics = [
   {id: "jardin6", src: jardin6, name: "jardin6", albums:["jardin"]},
   {id: "jardin7", src: jardin7, name: "jardin7", albums:["jardin"]},
   {id: "jardin8", src: jardin8, name: "jardin8", albums:["jardin"]},
-  {id: "newYork1", src: newYork1, name: "newYork1", albums:["newYork"]},
-  {id: "newYork2", src: newYork2, name: "newYork2", albums:["newYork"]},
-  {id: "newYork3", src: newYork3, name: "newYork3", albums:["newYork"]},
-  {id: "newYork4", src: newYork4, name: "newYork4", albums:["newYork"]},
-  {id: "newYork5", src: newYork5, name: "newYork5", albums:["newYork"]},
-  {id: "newYork6", src: newYork6, name: "newYork6", albums:["newYork"]},
+  {id: "newYork1", src: newyork1, name: "newYork1", albums:["newYork"]},
+  {id: "newYork2", src: newyork2, name: "newYork2", albums:["newYork"]},
+  {id: "newYork3", src: newyork3, name: "newYork3", albums:["newYork"]},
+  {id: "newYork4", src: newyork4, name: "newYork4", albums:["newYork"]},
+  {id: "newYork5", src: newyork5, name: "newYork5", albums:["newYork"]},
+  {id: "newYork6", src: newyork6, name: "newYork6", albums:["newYork"]},
   {id: "yosemite1", src: yosemite1, name: "yosemite1", albums:["yosemite"]},
   {id: "yosemite2", src: yosemite2, name: "yosemite2", albums:["yosemite"]},
   {id: "yosemite3", src: yosemite3, name: "yosemite3", albums:["yosemite"]},
